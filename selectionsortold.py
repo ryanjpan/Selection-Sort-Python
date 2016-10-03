@@ -1,4 +1,4 @@
-def insertionsort(list):
+def selectionsort(list):
     for i in range(0, len(list)):
         minind = i
         for j in range(i+1, len(list)):

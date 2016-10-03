@@ -1,4 +1,4 @@
-def insertionsort(list):
+def selectionsort(list):
     for i in range(0, len(list)/2):
         maxind = i
         minind = i
@@ -22,6 +22,6 @@ import datetime
 a = range(1, 10001)
 random.shuffle(a)
 t1 = datetime.datetime.now()
-insertionsort(a)
+selectionsort(a)
 t2 = datetime.datetime.now()
 print 'Time:', t2 - t1
